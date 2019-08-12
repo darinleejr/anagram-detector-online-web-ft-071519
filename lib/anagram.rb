@@ -10,6 +10,7 @@ class Anagram
     collection.each_with_index do |el, idx|
     if el.split("").sort.join || word.split("").sort.join
       ouput << collection[idx]
+    end
   end
   
   
