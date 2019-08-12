@@ -5,7 +5,10 @@ class Anagram
     @word = word
   end
   
-  def word
+  def match(collection)
+    output = []
+    if collection.each_with_index do |el, idx|
+      
      
   end
   
