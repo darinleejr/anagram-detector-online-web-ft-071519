@@ -1,4 +1,5 @@
 class Anagram
+  
   attr_accessor :word
   
   def initialize(word)
@@ -9,7 +10,7 @@ class Anagram
     output = []
     collection.each_with_index do |el, idx|
     if el.split("").sort.join == word.split("").sort.join
-      ouput << collection[idx]
+      output << collection[idx]
       end
     end
     output
