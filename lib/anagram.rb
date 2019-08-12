@@ -8,8 +8,8 @@ class Anagram
   def match(collection)
     output = []
     if collection.each_with_index do |el, idx|
-      el.split("").sort.join || 
-      ouput << collection
+      el.split("").sort.join || word.split("").sort.join
+      ouput << collection.idx
   end
   
   
