@@ -7,7 +7,7 @@ class Anagram
     @diaper = diaper
   end
 
-  def  
+  def 
   end
   
 end
