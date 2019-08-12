@@ -1,13 +1,8 @@
 class Anagram
-  attr_accessor :diaper
-  
-  @diaper = []
-  
-  def initialize(diaper)
-    @diaper = diaper
+  def initialize(word)
+    @word = word
   end
-
-  def 
-  end
+  
+  
   
 end
