@@ -4,7 +4,10 @@ class Anagram
   @diaper = []
   
   def initialize(diaper)
-      
+    @diaper = diaper
+  end
+
+  def  
   end
   
 end
