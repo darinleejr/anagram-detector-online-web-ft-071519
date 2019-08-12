@@ -11,6 +11,7 @@ class Anagram
     if el.split("").sort.join || word.split("").sort.join
       ouput << collection[idx]
     end
+    output
   end
   
 end
